@@ -3,7 +3,10 @@
 This repository contains the decrypted and decompressed contents of the `eqgrp-free-file.tar.xz` file released by "The Shadow Brokers". The contents are supposedly a free sample of the files exfiltrated from the [Equation Group](https://en.wikipedia.org/wiki/Equation_Group), a notorious, highly-sophisticated cyber attack group.
 
 The Shadow Brokers have opened an auction to sell off the remaining files, although the legitimacy of the auction is widely disputed. 
-
+ 
+ ________________________
+ #### UPDATE
+ TheShadowBrokers has is having little of each as our auction was an apparent failure. Be considering this our form of protest. The password for the EQGRP-Auction-Files is CrDj”(;Va.*NdlnzB9M?@K2)#>deB7mN
 
 ## Disclaimers
 
@@ -115,7 +118,9 @@ eqgrp_auction_file.tar.xz.asc
 
 sha256sum = af1dabd8eceec79409742cc9d9a20b9651058bbb8d2ce60a0edcfa568d91dbea
 
-Password = ????
+gpg  --output eqgrp-auction-file.tar.xz --decrypt eqgrp_auction_file.tar.xz.asc
+
+Password = CrDj”(;Va.*NdlnzB9M?@K2)#>deB7mN
 
 Auction Instructions
 - ——————–
